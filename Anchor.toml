@@ -10,6 +10,10 @@ nft_mint_vault_swap = "GBcsuNXsnyD6QhLQoHHaCfBpePQALzBE5qUCHYbdc9ap"
 [registry]
 url = "https://api.apr.dev"
 
+[[test.genesis]]
+address = "CoREENxT6tW1HoK8ypY1SxRMZTcVPm7R94rH4PZNhX7d"
+program = "tests/programs/mpl_core.so"
+
 [provider]
 cluster = "Localnet"
 wallet = "~/.config/solana/id.json"
